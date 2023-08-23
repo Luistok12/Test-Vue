@@ -1,13 +1,23 @@
-:root {
-    --primary-100:#805b00;
-    --primary-200:#b38835;
-    --primary-300:#ffe992;
-    --accent-100:#ffc941;
-    --accent-200:#926b00;
-    --text-100:#d3f1ff;
-    --text-200:#95cce7;
-    --bg-100:#023047;
-    --bg-200:#194058;
-    --bg-300:#365973;
-      
-}
+// Variables globales
+
+// Paleta de colores
+
+$primary-100: #805b00;
+$primary-200: #b38835;
+$primary-300: #ffe992;
+$accent-100: #ffc941;
+$accent-200: #926b00;
+$text-100: #d3f1ff;
+$text-200: #95cce7;
+$bg-100: #023047;
+$bg-200: #194058;
+$bg-300: #365973;
+
+// $ para declarar variables en sass
+
+// Breakpoints responsive
+
+$breakpoint-mobile-small: 600px;
+$breakpoint-mobile-middle: 767px;
+$breakpoint-tablet: 991px;
+$breakpoint-desktop: 1200px;
